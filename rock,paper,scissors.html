@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <script defer src="rock,paper,scissors.js" type="text/JavaScript">
+    </script>
+    <link rel="stylesheet" type="text/css" href="rock,paper,scissors.css">
+</head>
+<body>
+    <nav class="nav">
+        <img class="navimg" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRiMjZiY2VhYjRmZDRiNDIwZmQ0ZmFhMjM3ZTAzNzY3ODdiZmRjZiZjdD10cw/BVmb4D3UYZbzVlPYk7/giphy.gif">
+    </nav> 
+    <main class="main">
+        <img class="choiceimg" src="choices.png">
+        <h1 >Time for Click </h1>
+    </main>
+    <div class="div1">
+        <h1 class="rock" id="rockid" onclick="rock()" value="rock"> Rock </h1>
+        <h1 class="paper" id="paperid" onclick="paper()" value="paper"> Paper </h1>
+        <h1 class="scissor" id="scissorid" onclick="scissor()" value="scissor"> Scissor </h1>
+        <br>
+    </div>
+    <div class="div2">
+        <h3 class="result" id="userchoice" ></h3>
+        <h3 class="result" id="comchoice" ></h3>
+        <h1 class="result" id="return"></h1>
+        <button class="button" id="buttonid" onclick="refresh()">Play Again</button>
+    </div>
+</body>
+</html>  
